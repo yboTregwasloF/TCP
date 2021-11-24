@@ -6,6 +6,11 @@ body, ul, li, h1, h2, a{
 p {
     font-size: 18px;
 }
+body {
+  background-color: #241d33;
+}
+
+
 header {
     background-color:  #ff01c8;
     padding: 20px;
@@ -18,8 +23,8 @@ header {
 
 }
 header h1{
-    color: #FF3333;
-    border: 8px solid rgba(255, 255, 255, 0.527);
+    color: #db0e7f;
+    border: 8px solid violet;
     padding: 6px 12px;
     display: inline-block;
     border-radius: 36px;
@@ -36,15 +41,15 @@ header h1{
 .banner .welcome {
     background-color: #0a0ad7e9 0.3;
     color: #DA33FF;
+    font-size:60px;
     text-align: center;
     padding: 30px;
     position: middle;
     left: 0px;
     top: 30%;
 }
-.banner h2 {
-    font-size: 74px;
-}
+
+
 .banner h2 span {
 
     font-size: 1.3em;
@@ -58,13 +63,15 @@ main{
     box-sizing: border-box;
   }
   article h2{
-    color: #32f6ec8a;
+    color: #ab46d38a;
     font-size: 60px;
     text-align: center;
   }
   article p{
     line-height: 2em;
-    color: #4B4B4B;
+    color: #8d0649;
+    text-align: center;
+    font-size: 30px;
   }
   article p::first-line{
     font-size: 1.2em;
